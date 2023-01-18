@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    display: block;
+}
+
+/* ------------------------------------------- */
+/* ----------- NAVIGATION BAR CSS ------------*/
+/* ------------------------------------------- */
+/* Navigation bar Button styling */
+.navbar-button-style {
+    background-color: #a33327;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    width: 100%; /* make the button width responsive */
+}
+/* Navigation bar button hover */
+.navbar-button-style:hover {
+    background-color: #781c12;
+    color: white;
+}
+
+/* ------------------------------------------- */
+/* --------SUB NAVIGATION BAR CSS ------------*/
+/* ------------------------------------------- */
+/* Sub navigation bar Button styling */
+.sub-navbar-button-style {
+    background-color: #689775;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    width: 100%; /* make the button width responsive */
+}
+/* Navigation bar button hover */
+.sub-navbar-button-style:hover {
+    background-color: #417d52;
+    color: white;
+}
+/* Hide the sub navigation bar by default */
+#sub-navbar {
+    display: none;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .navbar-button-style {
+        font-size: 12px;
+        padding: 10px 20px;
+        width: 100px;
+        height: 30px;
+    }
+}
